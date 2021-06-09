@@ -1,0 +1,6 @@
+fontsquirrel: https://www.fontsquirrel.com/
+fonts_ninja: https://www.fonts.ninja/
+google_fonts: https://fonts.google.com/
+data_fonts: https://www.dafont.com/
+1001_free_fonts: https://www.1001freefonts.com/
+canva: https://www.canva.com/learn/typography-terms/

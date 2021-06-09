@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Airthan";
+  src: url("/resources/fonts/Airthan-Regular.woff2") format("woff2"),
+    url("/resources/fontsAirthan-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("resources/FontsMuli-Bold.woff2") format("woff2"),
+    url("/resources/Fonts/muli-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #361999;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Barvy: #361999, #78FFF1, #FF6495, #FFFFFF
+/* ================================================================= */
+
+/* Typography */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  text-decoration: none;
+  color: black;
+}
+
+.slogan {
+  text-align: center;
+  height: 400px;
+}
+
+.main_text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Muli;
+  font-size: 80px;
+  padding-top: 140.7px;
+  letter-spacing: 38px;
+}
+
+.side_text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Muli;
+  font-size: 30px;
+  padding-top: 25px;
+  letter-spacing: 14px;
+}
+
+.logo {
+  font-size: 38px;
+  font-family: Airthan;
+  cursor: pointer;
+}
+
+/* all else */
+
+header {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 230px;
+  background-color: #78fff1;
+}
+
+.nav-area {
+  list-style: none;
+}
+
+.nav-area li {
+  display: inline-block;
+  padding: 0 28px;
+  text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+  color: #ff6495;
+}
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+  margin: 50px;
+  border: 2px solid #78fff1;
+  border-radius: 5px;
+}
+
+img {
+  width: 720px;
+}
+
+h3 {
+  white-space: pre-line;
+  margin: 20px;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+}
