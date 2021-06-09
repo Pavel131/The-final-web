@@ -6,8 +6,8 @@ Show
 
 ## Links
 
-- [Repository](https://github.com/Pavel131/Statistics-Website)
-- [Issue tracker](https://github.com/Pavel131/Statistics-Website/issues)
+- [Repository](https://github.com/Pavel131/The-final-web.git)
+- [Issue tracker](https://github.com/Pavel131/The-final-web.git/issues)
 
 ## Licensing
 
