@@ -7,17 +7,9 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Muli";
-  src: url("../fonts/FontsMuli-Bold.woff2") format("woff2"),
-    url("../fonts/muli-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -56,7 +48,7 @@ p {
 .main_text {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: Muli;
+  font-family: "Mulish", sans-serif;
   font-size: 5em;
   margin-left: 25px;
   padding-top: 140.7px;
@@ -66,7 +58,7 @@ p {
 .side_text {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: Muli;
+  font-family: "Mulish", sans-serif;
   font-size: 30px;
   padding-top: 25px;
   letter-spacing: 14px;
